@@ -1,0 +1,45 @@
+{
+  "name": "@super_spider/rn-forge",
+  "version": "0.1.0",
+  "description": "An opinionated React Native project generator for production-ready applications.",
+  "type": "module",
+  "bin": {
+    "rn-forge": "./bin/cli.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node ./bin/cli.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/super-spiderr/rn-forge.git"
+  },
+  "keywords": [
+    "react-native",
+    "react-native-cli",
+    "scaffold",
+    "boilerplate",
+    "generator",
+    "rn"
+  ],
+  "license": "MIT",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/super-spiderr/rn-forge/issues"
+  },
+  "homepage": "https://github.com/super-spiderr/rn-forge#readme",
+  "dependencies": {
+    "@inquirer/prompts": "^8.6.0"
+  }
+}
