@@ -1,3 +1,6 @@
+# npm auth tokens - never commit these
+.npmrc
+
 # Logs
 logs
 *.log
